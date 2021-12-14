@@ -1,0 +1,248 @@
+ul li a {
+    font-weight: bold;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 3.2rem;
+    background: white;
+    margin-bottom: 60px;
+    /* Margin bottom by footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    /* Vertically center the text there */
+}
+
+/*
+    [GLOBAL FONT]
+*/
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.div-height-380 {
+    height: 380px;
+    background-color: white;
+}
+
+footer div {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+}
+
+footer div::-webkit-scrollbar {
+    /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+/*
+    [CUSTOM SCROLLBAR]
+*/
+
+.custom-scroll {
+    overflow-y: scroll;
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: rgba(69, 90, 100, 0.08);
+    /* color of the tracking area */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #e6e6e6;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgba(69, 90, 100, 0.08);
+    /* creates padding around scroll thumb */
+}
+
+/*
+    [NAVIGATION LINK]
+*/
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+    /* Provide sufficient contrast against white background */
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/*
+    [STICKY FOOTER]
+*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.width-50 {
+    width: 50px;
+}
+
+/*
+    [STICKY DIV]
+*/
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 53px;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+/* th, td {
+    white-space: nowrap;
+} */
+
+th {
+    white-space: nowrap;
+}
+
+.sm-device {
+    display: none;
+}
+
+@media (max-width:767px) {
+    .sm-device {
+        display: inline;
+    }
+    .lg-device {
+        display: none;
+    }
+    .navbar-collapse {
+        height: 100vh;
+    }
+}
+
+/*
+    [CARD]
+*/
+
+.card {
+    border-radius: 0;
+    /* -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08); */
+    border: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.card .card-header {
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    padding: 20px 15px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card .card-footer {
+    border-top: 1px solid #f1f1f1;
+    background: transparent;
+}
+
+.rounded-pill-right {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.rounded-pill-left {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+/*
+    [SELECT BOX]
+
+*/
+
+select {
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - .5em) .5em;
+    background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+    background-repeat: no-repeat;
+}
+
+.inline-icon {
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.font-20px {
+    font-size: 18px !important;
+    margin-top: 2px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-head-fixed {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #fff;
+}
+
+.padding-20px {
+    padding: 20px;
+}
+
+.card-product {
+    display: block;
+    cursor: pointer;
+}

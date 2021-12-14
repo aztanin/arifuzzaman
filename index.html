@@ -1,9 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="aztanin.github.io/arifuzzaman softwareEngineer" name="generator">
+    <meta name="ompagename" content="arifuzzaman_tanin_software_engineer">
+    <meta name="description" content="Software Engineer - Arifuzzaman Tanin is a Software Engineer in Bangladesh">
+    <meta name="keywords"
+          content="Software Engineer  - ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP, JavaScript, Windows Form Application,  Web Form Application,  Restful API,  Entity Framework,  ADO.NET,  Unit Test, Laravel,Codeigniter,Spring Boot,ORM,JQuery,Vue JS, T-SQL,MySQL,MSSQL Server, MariaDb,Repository Pattern,Design Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI">
+    <meta name="author" content="arifuzzaman tanin">
     <title>
         arifuzzaman tanin | 4+ years of experience of building complex web & mobile applications for local
         and international clients using different technology. Skills ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP,
@@ -12,307 +18,239 @@
         Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event
         Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI
     </title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/site.css" />
-    <script src="./assets/js/jquery.min.js"></script>
+    <link rel="canonical" href="https://aztanin.github.io/arifuzzaman/">
+    <link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/site.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
-        integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link rel="canonical" href="https://aztanin.github.io/arifuzzaman/">
-    <meta content="aztanin.github.io/arifuzzaman softwareEngineer" name="generator">
-    <meta name="ompagename" content="arifuzzaman_tanin_software_engineer">
-    <meta name="description" content="Software Engineer - Arifuzzaman Tanin is a Software Engineer in Bangladesh">
-    <meta name="keywords"
-        content="Software Engineer  - ASP.NE, .NET Core,MVC 5, Web API 2, C#, Java, PHP, JavaScript, Windows Form Application,  Web Form Application,  Restful API,  Entity Framework,  ADO.NET,  Unit Test, Laravel,Codeigniter,Spring Boot,ORM,JQuery,Vue JS, T-SQL,MySQL,MSSQL Server, MariaDb,Repository Pattern,Design Pattern,MS SQL Server 2008/X R2 on a Windows Server platform,Git, Bit Bucket, SVN,Microservice,Ocelot,Event Driven Architecture (EDA),Rabit MQ,SignalR,MQTT,Scaling (horizontal & vertical),Power BI">
-    <meta name="author" content="arifuzzaman tanin">
 </head>
 
 <body>
-    <header>
-        <nav
-            class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top py-0 py-md-0">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    ARIFUZZAMAN TANIN
+<nav class="navbar navbar-expand-lg navbar-light bg-warning border-bottom fixed-top py-0 py-md-0">
+    <div class="container">
+        <a class="navbar-brand sf-2 fw-bold lg-device" href="#">
+            ARIFUZZAMAN TANIN
+        </a>
+        <a class="navbar-brand sf-2 fw-bold sm-device text-center" href="#">
+            ARIFUZZAMAN TANIN
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link btn btn-sm btn-outline-light rounded-pill border-0 fw-bold"
+                   aria-current="page" href="#">
+                    <em class="inline-icon material-icons font-20px">mail_outline</em> arifuzzamantanin@outlook.com
                 </a>
             </div>
-        </nav>
-    </header>
+        </div>
+    </div>
+</nav>
 
-    <main role="main" class="pb-5 pt-5" id="my_app">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Profile Information</h5>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <ul class="remove-li-bullets">
-                                        <li>
-                                            <h5 class="card-title ">{{ profile.name }}</h5>
-                                        </li>
-                                        <li class=""><i class="inline-icon material-icons font-20px">my_location</i>
-                                            {{ profile.location }}</li>
-                                        <li class=""><i class="inline-icon material-icons font-20px">alternate_email</i>
-                                            arifuzzamantanin@outlook.com</li>
-                                        <li class=""><i class="inline-icon material-icons font-20px">phone</i>
-                                            +8801819543327</li>
-                                    </ul>
-                                    <p class="mt-3 text-justify ">{{ profile.bio }}</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <center>
-                                        <img v-bind:src="profile.avatar_url" class="rounded-circle" height="200"
-                                            width="200" />
-                                    </center>
-
-                                </div>
+<section class="container mt-5" id="app">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mt-3 rounded-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <ul class="ul-remove-bullets">
+                                <li>
+                                    <p class="card-title text-dark fw-bold">{{ profile.name }}</p>
+                                </li>
+                                <li class=""><i class="inline-icon material-icons font-20px">my_location</i>
+                                    {{ profile.location }}
+                                </li>
+                                <li class=""><i class="inline-icon material-icons font-20px">alternate_email</i>
+                                    arifuzzamantanin@outlook.com
+                                </li>
+                                <li class=""><i class="inline-icon material-icons font-20px">phone</i>
+                                    +8801819543327
+                                </li>
+                            </ul>
+                            <p class="mt-3 text-justify ">{{ profile.bio }}</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img v-bind:src="profile.avatar_url" class="rounded-circle" height="200"
+                                 width="200"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3 rounded-0">
+                <p class="card-header text-uppercase text-dark fw-bold">Achivement / Certification</p>
+                <ul class="ul-remove-bullets pt-3">
+                    <li>
+                        <p class="text-dark ps-2">
+                            <em class="inline-icon material-icons font-20px">chevron_right</em>
+                            IOT Certification (4 months trining under LICT, Bangladesh
+                            Govt.)
+                        </p>
+                    </li>
+                    <li>
+                        <p class="text-dark ps-2">
+                            <em class="inline-icon material-icons font-20px">chevron_right</em>
+                            National Hackathon Runners up 2014
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="card mt-3 rounded-0">
+                <p class="card-header text-uppercase text-dark fw-bold">My Skills</p>
+                <ul class="column-list">
+                    <li>ASP.NET (MVC 5,Web API 2, Core)</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>PHP</li>
+                    <li>JavaScript</li>
+                    <li>Windows Form Application</li>
+                    <li>Web Form Application</li>
+                    <li>Restful API</li>
+                    <li>Entity Framework</li>
+                    <li>ADO.NET</li>
+                    <li>Unit Test</li>
+                    <li>Laravel</li>
+                    <li>Codeigniter</li>
+                    <li>Spring Boot</li>
+                    <li>ORM</li>
+                    <li>JQuery</li>
+                    <li>Vue JS</li>
+                    <li>T-SQL</li>
+                    <li>MySQL</li>
+                    <li>MSSQL Server, MariaDb</li>
+                    <li>Repository Pattern</li>
+                    <li>Design Pattern</li>
+                    <li>MS SQL Server 2008/X R2 on a Windows Server platform</li>
+                    <li>Git, Bit Bucket, SVN</li>
+                    <li>Microservice</li>
+                    <li>Ocelot</li>
+                    <li>Event Driven Architecture (EDA)</li>
+                    <li>Rabit MQ</li>
+                    <li>SignalR</li>
+                    <li>MQTT</li>
+                    <li>Scaling (horizontal & vertical)</li>
+                    <li>Power BI</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+            <div class="mt-3 rounded-0">
+                <p class="card-header text-uppercase text-dark fw-bold mb-3">Work Experiences</p>
+            </div>
+            <div class="card mt-3 rounded-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="card-title text-uppercase text-dark fw-bold">Exabyting Limited</p>
+                            <p>Software Engineer (02 July 2021 To Present)</p>
+                        </div>
+                    </div>
+                    <p>Responsibilities</p>
+                    <ul>
+                        <li>Coordinate with the Technical Director on current programming tasks</li>
+                        <li>Collaborate with other programmers to design and implement features.</li>
+                        <li>Quickly produce well-organized, optimized, and documented source code.</li>
+                        <li>Debug existing source code and polish feature sets.</li>
+                        <li>Create and document software tools required by artists or other developers.</li>
+                        <li>Protects operations by keeping information confidential.</li>
+                        <li>Contribute to technical design documentation.</li>
+                        <li>Work independently when required.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mt-3 rounded-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="card-title text-uppercase text-dark fw-bold">Sim Solution Limited</p>
+                            <p>Software Engineer (01 Jan 2017 To 30 June 2021)</p>
+                        </div>
+                    </div>
+                    <p>Responsibilities</p>
+                    <ul>
+                        <li>Coordinate with the Technical Director on current programming tasks</li>
+                        <li>Collaborate with other programmers to design and implement features.</li>
+                        <li>Quickly produce well-organized, optimized, and documented source code.</li>
+                        <li>Debug existing source code and polish feature sets.</li>
+                        <li>Create and document software tools required by artists or other developers.</li>
+                        <li>Protects operations by keeping information confidential.</li>
+                        <li>Contribute to technical design documentation.</li>
+                        <li>Work independently when required.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mt-3 rounded-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="card-title text-uppercase text-dark fw-bold">Primeasia University</p>
+                            <p>Software Engineer (06 Feb 2017 To 25 Oct 2017)</p>
+                        </div>
+                    </div>
+                    <p>Responsibilities</p>
+                    <ul>
+                        <li>Develops information systems by designing, developing, and installing software
+                            solutions.
+                        </li>
+                        <li>Determines operational feasibility by evaluating analysis, problem definition,
+                            requirements, solution development, and proposed solutions.
+                        </li>
+                        <li>Develops software solutions by studying information needs, conferring with
+                            users, and studying systems flow, data usage, and work processes.
+                        </li>
+                        <li>Investigates problem areas.</li>
+                        <li>Documents and demonstrates solutions by developing documentation, flowcharts,
+                            layouts, diagrams, charts, code comments and clear code
+                        </li>
+                        <li>Protects operations by keeping information confidential.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="rounded-0 sticky mt-3">
+                <div class="card mb-2 rounded-0">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <em class="inline-icon material-icons text-muted mr-2"
+                                    style="font-size:65px;">description</em>
+                            </div>
+                            <div class="col-lg-10 pt-1">
+                                <p class=" mb-0 text-uppercase text-dark fw-bold">ARIFUZZAMAN.pdf</p>
+                                <small class="">Last updated 5/12/2021</small>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Achivement / Certification</h5>
-                        <ul class="task-list">
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>IOT Certification (4 months trining under LICT, Bangladesh Govt.)</h5>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>National Hackathon Runners up 2014</h5>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Skills</h5>
-                        <ul class="column-list">
-                            <li>ASP.NET (MVC 5,Web API 2, Core)</li>
-                            <li>C#</li>
-                            <li>Java</li>
-                            <li>PHP</li>
-                            <li>JavaScript</li>
-                            <li>Windows Form Application</li>
-                            <li>Web Form Application</li>
-                            <li>Restful API</li>
-                            <li>Entity Framework</li>
-                            <li>ADO.NET</li>
-                            <li>Unit Test</li>
-                            <li>Laravel</li>
-                            <li>Codeigniter</li>
-                            <li>Spring Boot</li>
-                            <li>ORM</li>
-                            <li>JQuery</li>
-                            <li>Vue JS</li>
-                            <li>T-SQL</li>
-                            <li>MySQL</li>
-                            <li>MSSQL Server, MariaDb</li>
-                            <li>Repository Pattern</li>
-                            <li>Design Pattern</li>
-                            <li>MS SQL Server 2008/X R2 on a Windows Server platform</li>
-                            <li>Git, Bit Bucket, SVN</li>
-                            <li>Microservice</li>
-                            <li>Ocelot</li>
-                            <li>Event Driven Architecture (EDA)</li>
-                            <li>Rabit MQ</li>
-                            <li>SignalR</li>
-                            <li>MQTT</li>
-                            <li>Scaling (horizontal & vertical)</li>
-                            <li>Power BI</li>
-                            <li>Docker</li>
-                        </ul>
-                    </div>
-
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Work experience</h5>
-                        <div class="card-body">
-                            <h5 class="">Sim Solution Limited <small>( Software Engineer )</small></h5>
-                            <p class="text-muted ">
-                                01 Jan 2017
-                                To
-                                30 June 2021
-                            </p>
-
-                            <h6>Responsibilities</h6>
-                            <ul>
-                                <li>Coordinate with the Technical Director on current programming tasks</li>
-                                <li>Collaborate with other programmers to design and implement features.</li>
-                                <li>Quickly produce well-organized, optimized, and documented source code.</li>
-                                <li>Debug existing source code and polish feature sets.</li>
-                                <li>Create and document software tools required by artists or other developers.</li>
-                                <li>Protects operations by keeping information confidential.</li>
-                                <li>Contribute to technical design documentation.</li>
-                                <li>Work independently when required.</li>
-                            </ul>
-
-                            <hr>
-
-                            <h5 class="">Primeasia University <small>( Software Engineer )</small></h5>
-                            <p class="text-muted ">
-                                06 Feb 2017
-                                To
-                                25 Oct 2017
-                            </p>
-
-                            <h6>Responsibilities</h6>
-                            <ul>
-                                <li>Develops information systems by designing, developing, and installing software
-                                    solutions.</li>
-                                <li>Determines operational feasibility by evaluating analysis, problem definition,
-                                    requirements, solution development, and proposed solutions.</li>
-                                <li>Develops software solutions by studying information needs, conferring with
-                                    users, and studying systems flow, data usage, and work processes.</li>
-                                <li>Investigates problem areas.</li>
-                                <li>Documents and demonstrates solutions by developing documentation, flowcharts,
-                                    layouts, diagrams, charts, code comments and clear code</li>
-                                <li>Protects operations by keeping information confidential.</li>
-                            </ul>
+                        <p class="mt-2">You can download my updated CV by clicking on the download button.</p>
+                        <div class="text-center">
+                            <a class="btn btn-outline-warning rounded-pill mt-3 w-100" target="_blank"
+                               href="./assets/files/RESUME.pdf">
+                                Download
+                            </a>
                         </div>
-
-                    </div>
-
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Projects</h5>
-                        <ul class="task-list">
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>EME RECORDS - BANGLADESH ARMY (ERP)</h5>
-                                <p>Bangladesh army is using this project. It’s an automation of Army management.</p>
-                                <p class="text-muted ">Technology : (hidden)</p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>UNIVERSITY MANAGEMENT SYSTEM - PRIMEASIA UNIVERSITY</h5>
-                                <p>Primeasia University is using this UMS. It’s a reputed private university in
-                                    Bangladesh.</p>
-                                <p class="text-muted ">Technology : ASP.NET, JavaScript, MSSQL</p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>SMART BUILDER (ERP)</h5>
-                                <p>ERP for real estate company. Master Builders Limited using this system.</p>
-                                <p class="text-muted ">Technology : Windows Form Application (.NET)</p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>HR & PAYROLL</h5>
-                                <p>HR and Payroll with a centralized biometric attendance system. Some renowned company
-                                    is using this system.</p>
-                                <p class="text-muted ">Technology : ASP.NET, JavaScript, MSSQL, Fingerprint scanner
-                                    (zkteco)</p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>VAT MANAGEMENT SYSTEM (VAT ACT 2012) ERP</h5>
-                                <p>Vat Act 2012 is implemented here and I've directly worked with VAT team.</p>
-                                <p class="text-muted ">Technology : ASP.NET MVC, Web API 2,JavaScript, MSSQL</p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i></h5>
-                                <h5>REAL-ESTATE MARKETPLACE</h5>
-                                <p>It's a property buy/sell /renting platform where real-estate companies / general
-                                    people can enlist their property. Its a B2B & B2C marketplace.</p>
-                                <p class="text-muted ">Technology : ASP.NET MVC, Web API 2,JavaScript, MSSQL</p>
-                            </li>
-                        </ul>
-                    </div>
-
-
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Education</h5>
-                        <ul class="task-list">
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>B.Sc - Software Engineering</h5>
-                                <p>American International Univerisity-Bangladesh</p>
-                                <p class="text-muted ">
-                                    1 Jan 2013 To 30 Apr 2017
-                                </p>
-                                <p class="text-muted ">
-                                    CGPA 2.70
-                                </p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>HSC - Higher Secondary School Certificate</h5>
-                                <p>Karim Uddin College</p>
-                                <p class="text-muted ">
-                                    Passing year 2012
-                                </p>
-                                <p class="text-muted ">
-                                    GPA 3.80
-                                </p>
-                            </li>
-                            <li>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>SSC - Secondary School Certificate</h5>
-                                <p>Karim Uddin College</p>
-                                <p class="text-muted ">
-                                    Passing year 2010
-                                </p>
-                                <p class="text-muted ">
-                                    GPA 5
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="card mb-2 rounded-0">
-                        <h5 class="card-header text-primary">Repositories</h5>
-                        <ul class="task-list">
-                            <li v-for="item in repositories" v-if='item.fork== false'>
-                                <i class="task-icon bg-c-green"></i>
-                                <h5>
-                                    <a v-bind:href='item.html_url'>
-                                        <p class="text-dark">{{item.name}}</p>
-                                    </a>
-                                </h5>
-                                <p class="text-muted ">
-                                    {{dateFormat(item.created_at)}}
-                                </p>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="sticky">
-                        <div class="card mb-2 rounded-0">
-                            <div class="card-body">
-                                <div class="media">
-                                    <i class="inline-icon material-icons text-muted mr-2"
-                                        style="font-size:65px;">picture_as_pdf</i>
-                                    <div class="media-body p-2">
-                                        <h6 class="mt-0 ">ARIFUZZAMAN.pdf</h6>
-                                        <small class="">Last updated 5/12/2021</small>
+
+                <div class="card mt-3 rounded-0">
+                    <p class="card-header text-uppercase text-dark fw-bold">My Github Followers</p>
+                    <div class="custom-scroll" style="height: 400px;">
+                        <div class="container mt-3 d-flex justify-content-center" v-for='item in followers'>
+                            <div class="bg-light p-3 w-100">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img :src="item.avatar_url" class="rounded w-100">
                                     </div>
-                                </div>
-                                <p>My updated resume is here.You can download.</p>
-                                <a class="btn btn-outline-secondary btn-block rounded-pill mt-3" target="_blank"
-                                    href="./assets/files/RESUME.pdf">
-                                    <i class="inline-icon material-icons text-muted">file_download</i> Download
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                        <div class="card mb-2 rounded-0">
-                            <h5 class="card-header">Followers</h5>
-                            <div class="card-body custom-scroll" style="height: 300px;">
-                                <div class="media" v-for='item in followers'>
-                                    <img v-bind:src="item.avatar_url" class="rounded-circle" height="65" width="65" />
-                                    <div class="media-body p-2">
-                                        <h5 class="mt-3"><a v-bind:href="item.html_url">
-                                                <p class="text-dark">{{item.login}}</p>
-                                            </a></h5>
+                                    <div class="col-lg-6 pt-2">
+                                        <h4 class="mb-0 mt-0">{{item.login}}</h4> <span>Software Engineer</span>
+                                        <div class="button mt-2"><a
+                                                :href="item.html_url" target="_blank"
+                                                class="btn btn-sm btn-warning w-100">Follow</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -322,23 +260,264 @@
                 </div>
             </div>
         </div>
+    </div>
 
+</section>
 
+<section class="mt-5">
+    <div class="container">
+        <p class="mt-3 mb-3 rounded-0 card-header text-uppercase text-dark fw-bold mb-3">Projects</p>
 
-
-    </main>
-
-    <button onclick="topFunction()" id="go-to-top-btn" title="Go to top"><i
-            class="material-icons">expand_less</i></button>
-    <footer class="border-top footer text-muted">
-        <div class="container pre-scrollable">
-            <span class="badge rounded-pill bg-secondary text-white "> &copy; ARIFUZZAMAN TANIN v1.0.2</span>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <p class="card-title text-dark fw-bold text-truncate">EME RECORDS - BANGLADESH ARMY (ERP)</p>
+                        <p class="mt-0">Bangladesh army is using this project. It’s an automation of Army
+                            management.</p>
+                        <ul class="ul-remove-bullets">
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    Technology : (hidden)
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <p class="card-title text-dark fw-bold text-truncate">UNIVERSITY MANAGEMENT SYSTEM - PRIMEASIA
+                            UNIVERSITY</p>
+                        <p class="mt-0">Primeasia University is using this UMS. It’s a reputed private university in
+                            Bangladesh.</p>
+                        <ul class="ul-remove-bullets">
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    ASP.NET
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    JavaScript
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    MSSQL
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <p class="card-title text-dark fw-bold text-truncate">HR & PAYROLL</p>
+                        <p class="mt-0">It's an HR and Payroll with a centralized biometric attendance system. Some
+                            renowned company is using this system.</p>
+                        <ul class="ul-remove-bullets">
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    ASP.NET
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    JavaScript
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    MSSQL
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    Fingerprint scanner (zkteco)
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <p class="card-title text-dark fw-bold text-truncate">VAT MANAGEMENT SYSTEM (VAT ACT 2012)
+                            ERP</p>
+                        <p class="mt-0">I have implemented the Vat Act 2012 in this project, and I've directly worked
+                            with the VAT team.</p>
+                        <ul class="ul-remove-bullets">
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    ASP.NET MVC
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    Web API 2
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    JavaScript
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    MSSQL
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <p class="card-title text-dark fw-bold text-truncate">REAL-ESTATE MARKETPLACE</p>
+                        <p class="mt-0">It's a property buy/sell /renting platform where real-estate companies / general
+                            people can enlist their property. It's a B2B & B2C marketplace.</p>
+                        <ul class="ul-remove-bullets">
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    ASP.NET MVC
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    Web API 2
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    JavaScript
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    MSSQL
+                                </div>
+                            </li>
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    Google Map Service
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <p class="card-title text-dark fw-bold text-truncate">bKash Website</p>
+                        <p class="mt-0">bKash is a mobile financial service in Bangladesh operating under the authority
+                            of Bangladesh Bank as a subsidiary of BRAC Bank Limited.</p>
+                        <ul class="ul-remove-bullets">
+                            <li class="ul-display-inline">
+                                <div class="badge bg-dark text-wrap">
+                                    Technology : (hidden)
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/site.js"></script>
-    <script src="./assets/js/index.js"></script>
 
+        <p class="mt-3 mb-3 rounded-0 card-header text-uppercase text-dark fw-bold mb-3">GITHUB PUBLIC REPOSITORIES</p>
+
+        <div class="row" id="app-repository">
+            <div class="col-md-4" v-for="item in repositories" v-if='item.fork== false'>
+                <div class="card rounded-0 mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img :src="item.owner.avatar_url" class="rounded" height="30" width="30">
+                            </div>
+                            <div class="col-lg-10">
+                                <p class="mb-0 mt-0 card-title text-dark fw-bold text-truncate text-uppercase">{{item.name}}</p> <span>Created {{dateFormat(item.created_at)}}</span>
+                                <div class="button mt-4 float-end"><a
+                                        :href="item.html_url" target="_blank"
+                                        class="btn btn-sm btn-outline-warning">View</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-5">
+    <div class="container text-center">
+        <ul class="ul-remove-bullets">
+            <li class="ul-display-inline pe-3 mb-2"><a class="text-decoration-none text-dark" href="#">Blog</a></li>
+            <li class="ul-display-inline pe-3 mb-2"><a class="text-decoration-none text-dark" href="#">Career advice</a>
+            </li>
+            <li class="ul-display-inline pe-3 mb-2"><a class="text-decoration-none text-dark" href="#">Help</a></li>
+            <li class="ul-display-inline pe-3 mb-2"><a class="text-decoration-none text-dark" href="#">Privacy</a></li>
+            <li class="ul-display-inline pe-3 mb-2"><a class="text-decoration-none text-dark" href="#">Terms</a></li>
+            <li class="ul-display-inline pe-3 mb-2"><a class="text-decoration-none text-dark" href="#">Cookies</a></li>
+        </ul>
+    </div>
+</section>
+<script src=" ./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            profile: [],
+            followers: [],
+        },
+        methods: {
+            loadProfile: function () {
+                axios
+                    .get('https://api.github.com/users/aztanin')
+                    .then(response => (this.profile = response.data));
+            },
+            loadFollowers: function () {
+                axios
+                    .get('https://api.github.com/users/aztanin/followers')
+                    .then(response => (this.followers = response.data));
+            }
+        },
+        created: function () {
+            this.loadProfile();
+            this.loadFollowers();
+        },
+        mounted() {
+
+        }
+    })
+
+    var app_repository = new Vue({
+        el: '#app-repository',
+        data: {
+            repositories: [],
+        },
+        methods: {
+            dateFormat: function (date) {
+                return moment(date).format('DD MMMM  YYYY');
+            },
+            loadRepositories: function () {
+                axios
+                    .get('https://api.github.com/users/aztanin/repos')
+                    .then(response => (this.repositories = response.data));
+            },
+        },
+        created: function () {
+            this.loadRepositories();
+        },
+        mounted() {
+
+        }
+    })
+</script>
 </body>
 
 </html>
